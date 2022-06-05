@@ -1,0 +1,33 @@
+{
+  "name": "pingo-backend",
+  "version": "1.0.0",
+  "description": "Final project - Pingo Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node server.js",
+    "dev": "nodemon server.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaEngd/pingo-backend.git"
+  },
+  "author": "JaEngd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaEngd/pingo-backend/issues"
+  },
+  "homepage": "https://github.com/JaEngd/pingo-backend#readme",
+  "dependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5",
+    "nodemon": "^2.0.16"
+  }
+}
